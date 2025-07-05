@@ -1,2 +1,18 @@
 Logical Error - Error due to wrong logic of a program - Compiler can identify
 Semantic Error- Due to wrong syntax - Compiler cannot identify
+Run-time error- Exceptions like a/0
+Exceptions are unpredictable circumstances with some error/issues when program terminates after running
+These happen during running of a program
+
+
+How to perform exception handling??
+1) Hit the exception 
+2) Throw the exception 
+3) Catch the exception 
+4) Perform the corrective action 
+
+try()= This block contains the code in which we put the code that might contain the exception 
+Catch()= whenever some exception is found in try block it is immediately thrown to catch block now the catch block will have the responsibility to handle the exception 
+   - Whenever try block finishes then only catch comes. 
+
+Note: there can be multiple catch block for 1 try block and single catch block can handle multiple exceptions
